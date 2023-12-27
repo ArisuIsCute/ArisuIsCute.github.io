@@ -105,9 +105,9 @@ analytics:
 # Site Author
 author:
   name             : "텐도 아리수"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars.githubusercontent.com/u/128462625?v=4"
   bio              : "Welcome To My Study Blog"
-  location         : "Korea"
+  #location         : "Korea"
   email            :
   links:
     - label: "Email"
