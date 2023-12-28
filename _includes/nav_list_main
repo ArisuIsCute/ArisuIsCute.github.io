@@ -10,11 +10,11 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">test</span>
+        <span class="nav__sub-title">Language</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "test" %}
-                        <li><a href="/categories/test">test ({{category[1].size}})</a></li>
+                    {% if category[0] == "c-sharp" %}
+                        <li><a href="/categories/c-sharp">c# ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
