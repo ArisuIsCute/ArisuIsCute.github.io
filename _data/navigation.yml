@@ -3,7 +3,9 @@ main:
   - title: "Home"
     url: https://arisuiscute.github.io/
   - title: "Categories"
-    urtl: "https://arisuiscute.github.io/categories/"
+    url: "https://arisuiscute.github.io/categories/"
+  - title: "Tags"
+    url: "https://arisuiscute.github.io/tags/"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
