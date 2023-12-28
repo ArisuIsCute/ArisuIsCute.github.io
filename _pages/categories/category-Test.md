@@ -1,10 +1,10 @@
 ---
-title: "테스트용 카테고리"
+title: "For Test"
 layout: archive
-permalink: categories/Test
+permalink: categories/test
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Test %}
-{% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
+{% assign posts = site.categories.test %}
+{% for post in posts %} {% include archive-line.html type=page.entries_layout %} {% endfor %}
