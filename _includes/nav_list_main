@@ -8,13 +8,21 @@
       <li>
         🧾 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
-      <li>
+      <>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
         <span class="nav__sub-title">Language</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "c-sharp" %}
                         <li><a href="/categories/c-sharp">c# ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+          <span class="nav__sub-title">Game</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "unity" %}
+                        <li><a href="/categories/unity">untiy ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
